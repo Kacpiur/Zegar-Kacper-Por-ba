@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+#bodyid {
     height: 100vh;
     /* background: linear-gradient(
         to bottom,
@@ -51,9 +51,13 @@ body {
     position: relative;
 }
 
+#clock-black {
+    position: inherit;
+    right: 0px;
+    display: none;
+}
 .hand {
     position: absolute;
-    background-color: #ffffff;
     margin: auto;
     left: 0;
     right: 0;
@@ -65,12 +69,14 @@ body {
     height: 60px;
     width: 10px;
     top: 100px;
+    background-color: #ffffff;
 }
 
 .minute {
     height: 80px;
     width: 5px;
     top: 80px;
+    background-color: #ffffff;
 }
 
 .seconds {
@@ -81,6 +87,7 @@ body {
     backdrop-filter: blur(3.3px);
     -webkit-backdrop-filter: blur(3.3px);
     /* border: 1px solid rgba(255, 255, 255, 0.3); */
+    background-color: #ffffff;
 }
 
 .naglowek {
@@ -256,4 +263,27 @@ input::-webkit-inner-spin-button {
 #ResetM{
 left: 75px;
 
+}
+
+.jasny, .ciemny{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    background: linear-gradient(145deg, #313131, #292929);
+    box-shadow: 8px 8px 23px #121212,
+        -8px -8px 23px #4a4a4a;
+    scale: 150%;
+    color: white;
+    text-align: center;
+    padding: 3px; 
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.ciemny{
+    display: none;
+}
+
+.jasny{
+    display: block;
 }

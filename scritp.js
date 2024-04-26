@@ -128,5 +128,22 @@ reset.addEventListener('click', function(){
     sec = 0;
     licznik.value=sec;
     clearInterval(set_timer);
+});
 
+const trybJasny = document.querySelector('.jasny');
+const trybCiemny = document.querySelector('.ciemny');
+const czarnyZegar = document.querySelector('#clock-black');
+const białyZegar = document.querySelector('#clock-template');
+const body = document.querySelector('#bodyid');
+const tarcza = document.querySelector('#zegar');
+trybJasny.addEventListener('click', function(){
+trybJasny.style.display = "none";
+trybCiemny.style.display = "block";
+czarnyZegar.style.display = "block"
+białyZegar.style.display = "none"
+strzalka1.style.backgroundColor= "#313131";
+strzalka2.style.backgroundColor= "#313131";
+strzalka3.style.backgroundColor= "#313131";
+body.style.background= "linear-gradient(145deg, #d1d1d1, #d4d4d4)";
+tarcza.style.background = "linear-gradient(145deg, #d1d1d1, #d4d4d4)";
 });

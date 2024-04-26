@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<svg width="320" height="320" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" data-name="Layer 1">
+ <title>clock new temp</title>
+ <g class="layer">
+  <title>Layer 1</title>
+  <circle cx="160" cy="160" fill="none" id="svg_1" r="160" transform="matrix(1 0 0 1 0 0)"/>
+  <g id="svg_2">
+   <path d="m90.42,46.57l5.41,-3.12c3.66,6.36 7.31,12.69 11.01,19.14l-5.4,3.13l-11.02,-19.15z" fill="#000000" id="svg_3"/>
+   <path d="m63.83,103.37l-3.08,5.43l-19.14,-10.96l3.08,-5.41c6.39,3.65 12.7,7.26 19.14,10.94z" fill="#000000" id="svg_4"/>
+   <path d="m101.46,258.36c1.88,1.08 3.59,2.07 5.41,3.12c-3.66,6.36 -7.28,12.66 -10.98,19.09l-5.44,-3.04c3.68,-6.41 7.32,-12.75 11.01,-19.17z" fill="#000000" id="svg_5"/>
+   <path d="m225.18,43.7c1.84,1.06 3.55,2.04 5.41,3.11l-11.09,19.12l-5.37,-3.17c3.67,-6.34 7.33,-12.66 11.05,-19.06z" fill="#000000" id="svg_6"/>
+   <path d="m275.59,232.09c-6.44,-3.71 -12.74,-7.35 -19.12,-11.03c1.07,-1.83 2.08,-3.55 3.16,-5.39l19.1,11.02c-1.05,1.81 -2.06,3.54 -3.14,5.4z" fill="#000000" id="svg_7"/>
+   <path d="m45.29,232.63l-3.1,-5.43l19.02,-11.11c1.07,1.84 2.08,3.57 3.13,5.38l-19.05,11.16z" fill="#000000" id="svg_8"/>
+   <path d="m275.56,91.89c1.08,1.87 2.07,3.58 3.11,5.41l-19.1,11.06c-1.03,-1.82 -2.02,-3.56 -3.07,-5.43l19.06,-11.04z" fill="#000000" id="svg_9"/>
+   <path d="m214.13,261.22l5.41,-3.12c3.68,6.35 7.35,12.67 11.06,19.07c-1.82,1.08 -3.56,2.1 -5.36,3.16l-11.11,-19.11z" fill="#000000" id="svg_10"/>
+   <text fill="#000000" font-family="WorkSans-Regular, Work Sans" font-size="42.24px" id="svg_11" transform="translate(149.2113 298.5818)">6</text>
+   <path d="m160.2,170.99a9.95,9.95 0 0 1 -9.95,-9.96a9.86,9.86 0 0 1 19.72,-0.18a10.01,10.01 0 0 1 -9.77,10.14z" fill="#000000" id="svg_12"/>
+   <text fill="#000000" font-family="WorkSans-Regular, Work Sans" font-size="42.24px" id="svg_13" transform="translate(24.27283 178.11598)">9</text>
+   <text fill="#000000" font-family="WorkSans-Regular, Work Sans" font-size="42.24px" id="svg_14" transform="translate(272.33728 178.11598)">3</text>
+   <text fill="#000000" font-family="WorkSans-Regular, Work Sans" font-size="42.24px" id="svg_15" transform="translate(138.97937 57.27126)">12</text>
+  </g>
+ </g>
+</svg>
