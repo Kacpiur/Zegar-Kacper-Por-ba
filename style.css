@@ -191,3 +191,69 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 
+#strzalka_lewo2{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 300px;
+    transition: 0.3s;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+#strzalka_lewo2:hover {
+    scale: 150%;
+    transform: translate(-33%, -33%);
+}
+
+.minutnik {
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.minutnik button {
+    position: absolute;
+    left: 0px;
+    background: linear-gradient(145deg, #313131, #292929);
+    box-shadow: 8px 8px 23px #121212,
+        -8px -8px 23px #4a4a4a;
+    scale: 300%;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+
+#StartM{
+    position: absolute;
+    left: -225px;
+}
+
+#StopM{
+    position: absolute;
+    left: -75px;
+}
+
+#licznik{
+    position: absolute;
+    left: 225px;
+    width: 30px;
+    background: linear-gradient(145deg, #313131, #292929);
+    box-shadow: 8px 8px 23px #121212,
+        -8px -8px 23px #4a4a4a;
+    scale: 300%;
+    color: white;
+    text-align: center;
+    cursor: not-allowed;
+}
+
+#ResetM{
+left: 75px;
+
+}

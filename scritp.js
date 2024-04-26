@@ -16,6 +16,7 @@ strzalka_lewo.addEventListener('click', function () {
     poleDoWpisywanie.style.display = "block";
     strzalka_lewo.style.display = "none";
     strzalka_prawo.style.display = "block";
+    strzalka_lewo2.style.display = "block";
     strzalka1.style.display = "none";
     strzalka2.style.display = "none";
     sekundy.value="";
@@ -30,6 +31,8 @@ strzalka_prawo.addEventListener('click', function () {
     poleDoWpisywanie.style.display = "none";
     strzalka_lewo.style.display = "block";
     strzalka_prawo.style.display = "none";
+    strzalka_lewo2.style.display = "none"
+    MinutnikAll.style.display = "none";
     obroty();
 });
 
@@ -89,4 +92,41 @@ start.addEventListener('click', function () {
         sec--;
         console.log(sec);
     }, 1000);
+});
+
+const strzalka_lewo2 = document.querySelector("#strzalka_lewo2");
+const MinutnikAll = document.querySelector('.minutnik');
+const startMinutnik = document.querySelector('#StartM');
+const stopMinutnik = document.querySelector('#StopM');
+const reset = document.querySelector("#ResetM");
+const licznik = document.querySelector('#licznik');
+strzalka_lewo2.addEventListener('click', function(){
+    MinutnikAll.style.display = "block";
+    naglowek.innerHTML = "STOPER";
+    poleDoWpisywanie.style.display = "none";
+    strzalka_lewo2.style.display = "none";
+});
+let sec = sekundy.value;
+startMinutnik.addEventListener('click', function(){
+    set_timer = setInterval(() => {
+        sec++;
+        let calc_sec = sec * 6;
+        minute.style.transform = `rotate(${calc_sec}deg)`;
+        sekundy.value=sec;
+        console.log(sec);
+        licznik.value=sec;
+    }, 1000);
+    
+});
+
+stopMinutnik.addEventListener('click', function(){
+    clearInterval(set_timer);
+});
+
+reset.addEventListener('click', function(){
+    strzalka3.style.transform = "rotate(0deg)";
+    sec = 0;
+    licznik.value=sec;
+    clearInterval(set_timer);
+
 });
